@@ -1,0 +1,34 @@
+@charset "UTF-8";
+        
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 21cm; /* Tamanho A4: largura */
+    height: 29.7cm; /* Tamanho A4: altura */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .rectangle {
+    flex: 1;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 5px;
+  }
+  
+  .narrow-rectangle {
+    flex: 1;
+    height: 100px;
+    background-color: orange;
+    margin: 5px;
+  }
